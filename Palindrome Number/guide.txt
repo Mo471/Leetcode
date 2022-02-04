@@ -1,0 +1,3 @@
+Each solution should check in the beginning that x > 0. x == 0 returns true right away.
+Simple variation is transforming int to String and compare two pointers from each side of the String.
+Another variation is creating another int by taking every last digit of x by using % 10, and them comparing new int and original int.

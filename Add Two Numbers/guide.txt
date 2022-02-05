@@ -1,0 +1,5 @@
+Note that result should be reversed as well.
+Get last digit from each number and sum into new linked list result. Do sum++ if carry is true and make carry false.
+If sum > 9, make carry true and add sum % 10 to result. Otherwise, add sum to result.
+If two given lists are having different length, repeat algorithm for the longer one.
+In the end, if carry is still true, add 1 to result.

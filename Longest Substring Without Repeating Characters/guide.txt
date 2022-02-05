@@ -1,0 +1,6 @@
+Problem has both O(n^2) bruteforce solution, as well as sliding window O(n) solution.
+
+For sliding window, we take pointer l and r on index 0, and move pointer r adding elements to int size and to map to see, when we find repeating one.
+After getting to repeating one, we move l to the right as well, removing non-repeating characters from map and from size. If we get to repeating character, we move both l and r forward, and now we keep sliding window out of repeating characters.
+
+Make sure to stop sliding window, if you get maximum of possible elements. In this problem it is 128 becase "consists of English letters, digits, symbols and spaces".

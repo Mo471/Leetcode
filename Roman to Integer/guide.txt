@@ -1,0 +1,2 @@
+Time complexity of solution is O(n).
+Characters V, L, D, M are summarised to int result right away. Characters I, X, C check next available number (if available), and add different numbers to int result.

@@ -1,0 +1,7 @@
+Time complexity of solving this problem is O(n*logn). Memory complexity is O(n).
+Steps to solve the problem:
+- Sort intervals (pairs) by the starting value. Arrays.sort and Comparator used for this purpose.
+- Create dynamic array in order to store merged intervals. Dynamic array is needed as it is unknown how many merged intervals will there be
+- Creating int[] "currentInterval" that will be sliding through array and merging overlapping intervals together
+- Creating loop through intervals, iterating through it and adding merged intervals into dynamic array "result". After each addition, "currentInterval" reassigned
+- Using method "result.toArray()" to transform dynamic array into standart int[][] and return it

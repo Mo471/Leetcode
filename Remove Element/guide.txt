@@ -1,0 +1,2 @@
+Time complexity is O(n), memory complexity O(1).
+Two pointers are used to move each element that is not equal to val to the left part of array ala partition. l pointer returned in the end.

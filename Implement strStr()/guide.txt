@@ -1,0 +1,2 @@
+Time complexity is O(n), memory complexity O(1).
+Iterating through substrings with length == needle length.

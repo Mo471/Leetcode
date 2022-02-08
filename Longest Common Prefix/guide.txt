@@ -1,0 +1,3 @@
+Time complexity is O(n*m), where n is quantity of elements in array, and m is average length of each element.
+Firstly, shortest element is identified. It helps avoid unecessary iterations as shortest word in array is the longest possible prefix.
+Second step is creating nested loop that iterates through each character of each element of array and compares them. If characters match, they are added to stringbuilder as a common prefix, and iterations continue.

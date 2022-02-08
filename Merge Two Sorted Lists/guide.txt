@@ -1,0 +1,4 @@
+Time complexity is O(n), where n is the length of longest list. Memory complexity O(1).
+New node is created to point to elements from original lists. Also, another node is created to point to the head of new node and to return final result.
+Two pointers used to traverse through 2 given lists and take elements in ascending order from them to the new list.
+When one of the lists is empty, remainder of the second list "attached" to the new list, and head of the final list is returned.

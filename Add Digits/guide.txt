@@ -1,0 +1,4 @@
+Best solution is O(1) for both time and memory.
+It derives from the rule that the original number is divisible by 9 if and only if the sum of its digits is divisible by 9.
+
+Simpler and more intuitive solution will take log(n) time. can be produced via recursion or loop.

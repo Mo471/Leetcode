@@ -1,0 +1,5 @@
+Time complexity is O(n), memory complexity O(1) as no new data structures created.
+Problem can be solved with stack and loop (in-order traversal) or with recursion. Recursive solution is provided.
+In BST for this problem, left subtree of the node should contain only values < than node value, and right subtree should contain only values > than node value.
+That means that each node will have an allowed interval for its value, i.e. left border < node.val < right border. For root, borders used as Integer.MIN_VALUE - 1 and Integer.MAX_VALUE + 1, 1 is used in order to resolve edge case when root is equal to max or min int value.
+After each traversal into new node, it is checked that value of the node is in allowed interval and then recursive call is made with updated interval. If tree traversal finished and no values occurred to be out of allowed intervals, then tree is BST and true is returned.

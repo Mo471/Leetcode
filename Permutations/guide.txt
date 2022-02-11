@@ -1,0 +1,2 @@
+Time complexity is O(n!), memory complexity O(n) as recursive calls will be stored in stack with the max length of length of array.
+We use loop to put all possible elements into each position of a temp array. When temp array is full (same length as source array), new element added to the result array. After that, when recursive call is finished, last element of array is removed both from temp list and from set, and attempt will be made to replace this element with another to creater new permutation.

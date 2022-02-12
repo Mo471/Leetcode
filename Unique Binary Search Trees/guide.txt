@@ -1,0 +1,5 @@
+Time complexity is O(n^2), space complexity O(n) as recursive calls will be stored in stack with the max size of n. In variation with map, map will also store at max n keys.
+In this problem, we will iterate from 1 to n. On each element i, it can be thought that i is a root of tree, and elements that are less than i can form variations of left subtrees. Similarly, elements that are more than i can form vatiations of right subtree.
+Thus, for each i, we will be using formula `possible subtrees < i` * `possible subtrees > i`, and will add result to int sum. To calculate possible subtrees we use recursive call, unti we reach base case where 1 element creates 1 subtree.
+Also, to avoid repetitive calculations, we add result of calculated subtrees n into hashmap and reuse when we need to calculate certain amount of subtrees.
+In code, there is a second variation of this algorithm, with less code and without hashmap, but due to repetitive operations, it is slower than the main algorithm.

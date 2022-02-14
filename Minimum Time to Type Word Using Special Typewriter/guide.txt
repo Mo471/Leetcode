@@ -1,0 +1,2 @@
+Time complexity is O(n), memory complexity O(1).
+Int curr is started from 97 as it is ASCII code for char `a`. Later on it will be each i - 1 character. For each character of String word, it is calculated whether clockwise or counterclockwise would be the shortest path, and then it is added to the sum.

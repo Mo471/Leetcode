@@ -1,0 +1,2 @@
+Time complexity is O(n), memory complexity O(h) as recursive calls will be stored in stack with the max length of tree height.
+Algorithm does search through the binary tree to find leaf that could have element that needs to be inserted as a left or right child. Then child is inserted and root of original tree is returned.

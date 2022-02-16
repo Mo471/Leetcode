@@ -1,0 +1,2 @@
+Time complexity is O(n), memory complexity O(h) as recursive calls will be stored in stack with the max length of tree height.
+Algorithm will got to the deepest left node, get the height and then same with the right subtree. After that, it will be comparing left and right subtrees heights. If difference > 1, whole algorithm will be returning -1 as heights, which indicates that BST is not balanced. Otherwise, each time max of 2 heights will be returned.

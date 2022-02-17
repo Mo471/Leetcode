@@ -1,0 +1,4 @@
+Time complexity is O(n^2), memory complexity O(1).
+Peak is current possible H index. On each iteration we check if it can be increased by 1 or reamain the same.
+For that, for each index i we iterate from 0 to i via index j, and add to int count if given value is bigger than peak + 1. If we count reaches peak + 1, then peak incremented and algorithm gets to the next i.
+Final peak will be final H-index.

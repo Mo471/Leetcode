@@ -1,0 +1,2 @@
+Time complexity is O(n), memory complexity O(n) for stack of elements, where n is the length of the longest input String.
+Standard sum of binary numbers. %, / and carry are used to sum values as on paper.

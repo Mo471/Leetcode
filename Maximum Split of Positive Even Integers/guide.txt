@@ -1,0 +1,9 @@
+Time complexity is O(n), memory complexity O(1).
+This algorithm will start only if given number is even.
+Value `even` starting from 2 used in order to calculate unique even positive numbers, that can give in sum provided number.
+On each iteration, just like in stack, even will be added to list and finalNum - even. Then even iterates by 2. After that, last element will be `popped`, and procedure will repeat itself, until finalNum - even <= even. At this point last valid list is an answer.
+For instance, final num is 28. 
+[2,28-2=26]
+[2,4,22]
+[2,4,6,16] // result
+[2,4,6,8,8]// INVALID, previous valid list is result

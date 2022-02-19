@@ -1,0 +1,2 @@
+Time complexity is O(logn), memory complexity O(1).
+Classic binary search in sorted array. Uses l, mid, r pointers, checks that mid == target, if not, search occurs in left or right part recursively.

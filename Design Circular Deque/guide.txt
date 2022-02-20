@@ -1,0 +1,2 @@
+Time complexity is O(1), memory complexity O(n) for all deque elements.
+Deque is starting pushing both on front and back from index 0. After that, it is tracking size of deque in int size. If reached, deque is full. Deque is not removing elements from the array, it just moves pointer when needed because the only available elements are the ones, which are being pointed at by l and r pointers.

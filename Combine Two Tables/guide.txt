@@ -1,0 +1,1 @@
+LEFT JOIN (sometimes referred as outer join) allows to get all values from table 1 and if matching data in table 2 missing, shows null.

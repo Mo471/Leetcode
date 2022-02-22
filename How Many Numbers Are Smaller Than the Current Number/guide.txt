@@ -1,0 +1,4 @@
+Time complexity is O(n), memory complexity O(n*logn) for additional array and map of size n.
+Duplicate array is created from original to keep order of original elements. New array is sorted, after that it can be observed that for almost each element with index i, index shows how many values are less than current value. Exception is duplicate value, where only for first occurence of value rule applied. 
+Algorithm will take advatage of this observation, and will add each value from sorted array as key in map, and their index as value. If second or more occurence of the same characters occurs, this character is ignored.
+Finally, algorithm loops through original array, takes value of i as key for map, and replaces with value from map. This array is returned as a final result

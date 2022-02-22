@@ -1,0 +1,6 @@
+Time complexity is O(n*m) + O(n*l), where n is count of words, m is count of characters to create words (String chars), l average count of characters in each word.
+As per task l can be maximum 100 000 and m 100, which makes it O(n*l).
+Space complexity is O(m) as additional space is only used for String chars.
+
+Algorithm loops through each word, creates map from String chars <char, occurences of char> (map recreated for each iteration of first loop).
+After that second loop iterates through characters in word and compares them with map. If character is missing from map or 0, loop breaks. Otherwise, count of characters decrement in map to make sure this character won't be used twice. Finally, if loop was not broken, length of word will be added to int result.

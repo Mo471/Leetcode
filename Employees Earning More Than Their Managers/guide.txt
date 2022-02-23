@@ -1,0 +1,3 @@
+a instance will be displayed in first line
+Variables a and b created for differenent instances. On this line either 2 created or second joined (preferred).
+Here ON if no JOIN, if JOIN we use ON. Conditions are the same.

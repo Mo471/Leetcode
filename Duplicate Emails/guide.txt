@@ -1,0 +1,2 @@
+DISTINCT allows avoid duplicates
+JOIN gathers data that matches WITHOUT showing any nulls

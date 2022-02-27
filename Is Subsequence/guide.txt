@@ -1,0 +1,2 @@
+Time complexity is O(n), where n is a length of String t, memory complexity O(1).
+Checking is s <= t and if s is not empty. After that, creating pointer s and pointer t, both on index 0. Iterating through t and incrementing pt, if characters of indices ps and pt equal, then both can be incremented. If all characters of s got matched, then true. Else false.

@@ -1,0 +1,2 @@
+Time complexity is O(n), memory complexity O(1).
+Algorithm checks edge case with flowebed of length 1. If that is not the case, it iterates through the flowerbed array. In case flower can be planted, 0 replaced to 1 and n decremented. In the end, if n <= 0, then true if returned.

@@ -1,0 +1,2 @@
+Time complexity is O(n), where n is length of result of XOR operation. Memory complexity O(n) to store same length n as a String.
+Firstly, XOR operator used to store int, binary representation of which shows 1 for difference between x and y, and 0 for no difference. After that, this int transformed into binary number and stored as a String. Loop iterates through the String, and int result incremented for each character 1 in String.

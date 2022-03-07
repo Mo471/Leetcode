@@ -1,0 +1,2 @@
+Time complexity is O(n), memory complexity O(n) for stack of elements.
+Algorithm iterates through the array, each time number encountered, it is pushed to the stack. Each time valid operator encountered, it pops integers, does operation and pushes result back to stack. Last number in stack is result of all operations and is returned as an answer.

@@ -1,0 +1,2 @@
+Time complexity is O(n), memory complexity O(n) to store occurences in map.
+Iterating through nums[]. Adding occurences of ints after key in map. After adding occurence checking current maxOccurence, and if certain number beats it, maxOccurence and result updated.

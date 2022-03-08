@@ -1,0 +1,2 @@
+Time complexity is O(n^2), space O(n^2).
+Adding first row with 1 as default. Further, nested loop is used. Previous row accessed to form new row from sums. Before and after nested loop 1 is added to the sides of each new level.

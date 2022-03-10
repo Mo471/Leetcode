@@ -1,2 +1,2 @@
-Time complexity is O(n), memory complexity O(n) for stack of elements.
-Stack is created, if element is open parenthesis, then it is pushed on the stack. If element is closing parenthesis, it should be matching top element of stack and then top element can be popped. Otherwise, false returned.
+Time complexity is O(n^2), memory complexity O(n).
+Algorithm takes all numbers and stores them in String[]. After that, it sorts them in an array in order to form largest number. Custom comparator used for that operation, it takes Strings, compiles them in 2 variations, and compares as doubles. Finally, sorted array is transferred to String and returned. In case all numbers are 0, boolean allZeros is used to manage this edge case, i.e. if true, returns "0".

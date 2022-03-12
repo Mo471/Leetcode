@@ -1,0 +1,3 @@
+Time complexity is O(n), memory complexity O(1).
+Algorithm creates loop which works while originalValue > 0. On each iteration loop multiplies reveresedInt by 10 and then adds result of originalValue%10 to it. Then, originalValue being divided by 10.
+After loop will finish, algorithm will check if originalValue is negative, and if so, will reverse the sign for reversedInt by using multiplication by -1. Finally, reversedInt returned.

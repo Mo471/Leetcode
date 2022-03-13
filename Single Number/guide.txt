@@ -1,0 +1,2 @@
+Time complexity is O(n), memory complexity O(1).
+Best algorithm can be created via bit manipulation. int result set to 0, then XOR operator used with result and each numbers in nums. As similar numbers in xor operation will cancel each other out (because they appear only twice), result will be basically operation 0 ^ number that should be returned, which basically gives us correct number to return.

@@ -1,0 +1,2 @@
+Time complexity is O(n), space complexity O(1).
+Basically as moving to odd steps has cost = 0, and changing from odd to even and vice versa = 1, we need to figure out if we should move all odd numbers to even position, or all even numbers to odd position. Therefore, we just count chips on even indices vs chips on odd positions, whichever is less wins as it would take less steps for transformation.

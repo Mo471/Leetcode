@@ -1,0 +1,2 @@
+Time complexity is O(n), space complexity O(1).
+Algorithms uses two pointers to compare chars from a beginning and an end of as String. In case character is not letter or digit, it is skipped. If characters to lower case not equal, false returned. Else, pointers move to next characters.

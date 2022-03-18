@@ -1,0 +1,2 @@
+As quicksort algorithm is implemented, time complexity most of the times is O(n*logn), but for rare and worst case it is O(n^2). Memory complexity O(n*logn).
+Typical quicksort algorithm is implemented. Partition step divides array into two using pivot element. During partition step, part of array is sorted. Then array called recursively for left and right part from pivot, until 2 pointers will cross, which means that maximum partition was achieved.

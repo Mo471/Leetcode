@@ -1,0 +1,2 @@
+Time complexity is O(n), space O(1).
+Using 2 pointers. Right pointer jumps only on non-zeroes, l to zeroes. Then l and r switched and both pointers keep moving forward. This way, all zeroes will end up in the end of an array.

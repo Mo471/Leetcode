@@ -1,0 +1,2 @@
+Time complexity is O(n), space complexity O(1).
+Algorithm takes 2 pointers from beginning and the end of an array. l pointer compared to the last colour in an array, r pointer compared to the first colour in an array. When different colours indicated, distance returned.

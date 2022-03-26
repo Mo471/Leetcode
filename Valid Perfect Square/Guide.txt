@@ -1,0 +1,2 @@
+Time O(log n), space 1.
+Using binary search to find value for which value*value = n

@@ -1,0 +1,2 @@
+Time complexity is O(n), space complexity O(1).
+Algorithm removes all leading and trailing spaces first. Then returns length as a difference of last index in String and last index of char ' '.

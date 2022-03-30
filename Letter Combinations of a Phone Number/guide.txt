@@ -1,0 +1,2 @@
+Time complexity is O(n), where n is count of all characters multiplied, space complexity O(n) for stack of elements.
+String[] map is used to iterate through possible variations, recursive function creates new variations and add them to the List<String> combinations.

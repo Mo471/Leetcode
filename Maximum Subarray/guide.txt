@@ -1,0 +1,2 @@
+Time complexity is O(n), space complexity O(1).
+Algorithm doing one run through an array gathering current max value and comparing it to global max value. Global max is replaced when current max becomes bigger than it. Also, for current max value + nums[i] < nums[i], current max value starts count over from nums[i].
